@@ -146,6 +146,9 @@ body {
 }*/
 
 /*---------------------products-page---------------------------------------*/
+.product-page {
+  z-index: 1000;
+}
 
 .products {
   position:relative;
@@ -168,7 +171,7 @@ body {
 .products {
   grid-template-columns: 100%; /* ...alltså här! Så nu har vi 3 stycken snygga kolumner när bredden överstiger 981 pixlar. Fortsätt ner...*/
   grid-row-gap: 3%;
-  margin-top: 3rem;
+  margin-top: rem;
   
   }
 .products > div {
@@ -176,33 +179,33 @@ body {
   }
 }
 
-@media only screen and (min-width: 507px) {
+@media only screen and (min-width: 580px) {
 .products {
   grid-template-columns: 50% 50%; /* ...alltså här! Så nu har vi 3 stycken snygga kolumner när bredden överstiger 981 pixlar. Fortsätt ner...*/
   grid-row-gap: 3%;
-  margin-top: 2.5rem;
+  margin-top: rem;
   }
 .products > div {
   padding: 20px;
   }
 }
 /* Här har vi den andra @media klamern. Den här är dock min-width 981px vilket betyder samma som på den andra fast om bredden överstiger 981 pixlar så kommer nya värden. Fortsätt ner... */
-@media only screen and (min-width: 751px) {
+@media only screen and (min-width: 880px) {
 .products {
   grid-template-columns: 30% 30% 30%; /* ...alltså här! Så nu har vi 3 stycken snygga kolumner när bredden överstiger 981 pixlar. Fortsätt ner...*/
   grid-row-gap: 50px;
-  margin-top: 2rem;
+  margin-top: rem;
   }
 .products > div {
   padding: 30px;
   }
 }
 
-@media only screen and (min-width: 1090px) {
+@media only screen and (min-width: 1150px) {
 .products {
   grid-template-columns: 22% 22% 22% 22%; /* ...alltså här! Så nu har vi 3 stycken snygga kolumner när bredden överstiger 981 pixlar. Fortsätt ner...*/
   grid-row-gap: 3%;
-  margin-top: 2rem;
+  margin-top: rem;
 
   }
 .products > div {
@@ -213,7 +216,10 @@ body {
 
 
 
+.kort {
+  padding: 50px;
 
+}
 
 
 

@@ -56,7 +56,7 @@ body {
 
 
 .home-page {
-  background: url("Oliver.JPG"); no-repeat;
+  background: url("media/Oliver.JPG"); no-repeat;
   background-size: cover;
   background-position-y: 20%;
 }
@@ -122,6 +122,34 @@ body {
   border-radius: 10px;
 }
 
+
+
+/*          -------products sida---------         */
+.samling  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.helbild  {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.produktinfo h1 {
+  color: red;
+  text-align: center;
+}
+
+.farg1 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  margin: auto;
+}
 /*------------------------porfolio-slut----------------------*/
 
 

@@ -124,32 +124,6 @@ body {
 
 
 
-/*          -------products sida---------         */
-.samling  {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  margin-top: 20px;
-}
-
-.helbild  {
-  width: 100%;
-  border-radius: 20px;
-}
-
-.produktinfo h1 {
-  color: red;
-  text-align: center;
-}
-
-.farg1 {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border-radius: 50%;
-  margin: auto;
-}
 /*------------------------porfolio-slut----------------------*/
 
 
@@ -294,6 +268,72 @@ body {
   border-radius: 20px;
   display: block;
 }
+
+
+
+/*          -------products sida---------         */
+.samling  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.helbild  {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.produktinfo h1 {
+  color: red;
+  text-align: center;
+}
+
+.farginfo {
+  color: #6EC0D9;
+}
+
+.farger {
+  position: relative;
+  margin: auto;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+.prodinfo {
+  color: black;
+}
+
+/*------------farger-----------------------------*/
+.vfarg1 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.vfarg2 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+.vfarg3 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+/*-------------frager-slut------------------------*/
 
 /*--------------------------product-page-slut!--------------------------------*/
 

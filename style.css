@@ -159,6 +159,10 @@ body {
   z-index: 1000;
 }
 
+.product-img {
+  margin-top: 30%;
+}
+
 .products {
   position:relative;
   margin-left:auto;

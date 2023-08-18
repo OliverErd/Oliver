@@ -300,24 +300,24 @@ body {
   position: relative;
   margin: auto;
   
-  height: 70px;
-  width: 200px;
+  height: 100px;
+  width: 100%;
   text-align: center;
   margin-bottom: -1rem;
-  background-color: #6EC0D9;
-  border-radius: 20px;
+  background-color: rgba(0, 60, 100, 0.7);
+ 
 }
 .prodinfo {
+  position: absolute;
   color: black;
-  text-align: center;
-  padding: 20px;
+  bottom: -88%;
+  left: 150%;
   
 }
 
 .vfarg1 {
   width: 40px;
   height: 40px;
-  background-color: red;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;
@@ -326,7 +326,6 @@ body {
 .vfarg2 {
   width: 40px;
   height: 40px;
-  background-color: #808080;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;
@@ -334,7 +333,6 @@ body {
 .vfarg3 {
   width: 40px;
   height: 40px;
-  background-color: blue;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;

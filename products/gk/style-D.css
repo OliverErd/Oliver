@@ -290,34 +290,47 @@ body {
 }
 
 .farginfo {
-  color: #6EC0D9;
+  color: white;
 }
 
+.howto {
+  color: #fafafa;
+  vertical-align: ;
+
+}
+
+
+/*------------farger-----------------------------*/
 .farger {
   position: relative;
   margin: auto;
-  line-height: 50px;
-  height: 50px;
+  
+  height: 140px;
+  width: 100%;
   text-align: center;
   margin-bottom: -1rem;
+  background-color: rgba(0, 60, 100, 0.7);
+ 
 }
 .prodinfo {
+  position: absolute;
   color: black;
+  bottom: -88%;
+  left: 150%;
+  
 }
 
-/*------------farger-----------------------------*/
 .vfarg1 {
   width: 40px;
   height: 40px;
-  background-color: black;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;
+  
 }
 .vfarg2 {
   width: 40px;
   height: 40px;
-  background-color: red;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;
@@ -325,7 +338,6 @@ body {
 .vfarg3 {
   width: 40px;
   height: 40px;
-  background-color: red;
   border-radius: 50%;
   vertical-align: middle;
   display: inline-block;

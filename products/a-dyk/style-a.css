@@ -299,8 +299,7 @@ body {
 /*------------farger-----------------------------*/
 .farger {
   position: relative;
-  margin: auto;
-  height: auto;
+  padding: 10px;
   width: 100%;
   text-align: center;
   background-color: rgba(0, 60, 100, 0.7);

@@ -156,9 +156,6 @@ body {
 
 /*---------------------products-page---------------------------------------*/
 
-.product-img {
-  margin-top: 30%;
-}
 
 .products {
   position:relative;
@@ -247,6 +244,7 @@ body {
   background-color: #fafaa;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  
 }
 
 
@@ -254,6 +252,7 @@ body {
   color: orange;
   margin-left: 13px;
   margin-top: -6px;
+  margin-top: 10px;
 }
 
 .produkt-namn {
@@ -300,25 +299,24 @@ body {
 
 .howto {
   color: #fafafa;
-  padding: ;
+  padding: 10px;
 
 }
 
 .farger {
   position: relative;
-  bottom: 0;
-  padding: 10px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
   background-color: rgba(0, 60, 100, 0.7);
  }
+
 
 .prodinfo {
   color: black;
 }
 
 /*------------farger-----------------------------*/
-
 .vfarg1 {
   width: 40px;
   height: 40px;
@@ -348,29 +346,6 @@ body {
   border-style: solid;
 	border-width: 2px;
 	border-color: black;
-}.vfarg1 {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border-radius: 50%;
-  vertical-align: middle;
-  display: inline-block;
-}
-.vfarg2 {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border-radius: 50%;
-  vertical-align: middle;
-  display: inline-block;
-}
-.vfarg3 {
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border-radius: 50%;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 

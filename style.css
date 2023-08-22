@@ -227,7 +227,7 @@ body {
 
 
 .kort {
-  padding: 50px;
+  padding: 40px;
 
 }
 
@@ -273,6 +273,13 @@ body {
 
 
 /*          -------products sida---------         */
+.enhet {
+  color: black;
+  text-align: center ; 
+  position: relative;
+  margin-top: 100px;
+}
+
 .samling  {
   display: block;
   margin-left: auto;

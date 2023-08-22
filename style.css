@@ -315,7 +315,13 @@ body {
 .prodinfo {
   color: black;
 }
-
+.produkt-namn-sida {
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  text-decoration: underline;
+}
 /*------------farger-----------------------------*/
 .vfarg1 {
   width: 40px;

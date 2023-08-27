@@ -45,7 +45,9 @@
 			<div class="product-content">
 			<div class="produkt-namn"></div>
 			<div class="product-img">
-				<a href="products/a-dyk/products-a.html">
+				
+				<a href="products/a-dyk/products-a.html" id="HyperLink1" onclick="return ValidatePassword();">
+
 					<img src="media/a-dyk/dykudd.png" class="framsida" alt="image">
 				</a>
 
@@ -109,3 +111,15 @@
 
 	</div>
 </section>	
+
+<script>
+function ValidatePassword() {
+
+	var password = prompt("Please enter password to proceed", "");
+  
+	if (password == "Fest") {
+	  return true;
+	}
+	return false;
+  }
+</script>

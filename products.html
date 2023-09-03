@@ -84,7 +84,7 @@
 			<div class="product-content">
 			<div class="produkt-namn"></div>
 			<div class="product-img">
-				<a href="products/gk/products-D.html">
+				<a href="products/gk/products-D.html" id="HyperLink1" onclick="return ValidatePassword();">
 					<img src="media/gkkj/gk.png" alt="image">
 				</a>
 
@@ -117,7 +117,7 @@ function ValidatePassword() {
 
 	var password = prompt("Please enter password to proceed", "");
   
-	if (password == "Fest") {
+	if (password == "KJ") {
 	  return true;
 	}
 	return false;

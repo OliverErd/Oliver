@@ -17,7 +17,7 @@ body {
 /*-----------------------Home-page-------------------------------------------*/
 .home-page{
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .header {

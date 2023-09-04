@@ -57,8 +57,9 @@ body {
 
 .home-page {
   background: url("media/Oliver.JPG") no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position-y: 20%;
+
 }
 .home {
   height: 100vh;

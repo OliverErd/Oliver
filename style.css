@@ -17,7 +17,7 @@ body {
 /*-----------------------Home-page-------------------------------------------*/
 .home-page{
   height: 100vh;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .header {
@@ -57,10 +57,8 @@ body {
 
 .home-page {
   background: url("media/Oliver.JPG") no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position-y: 20%;
-  background-repeat: no-repeat;
-
 }
 .home {
   height: 100vh;

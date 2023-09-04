@@ -60,7 +60,12 @@ body {
   background-size: cover;
   background-position-y: 20%;
 }
-
+.sjalv {
+  background: url("media/dolomite.JPG") no-repeat;
+  background-size: cover;
+  height: 1000px;
+  
+}
 
 .home {
   height: 100vh;
@@ -97,7 +102,6 @@ body {
   font-weight: 400;
   margin-left: 7px;
 }
-
 
 
 

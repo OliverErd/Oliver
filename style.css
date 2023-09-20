@@ -75,8 +75,8 @@ body {
   animation-timing-function: ease-in-out;}
 
   @keyframes move {
-    from {top: 200px; opacity: 0;}
-    to {top: 0px; opacity: 1;}
+    from {top: 200px; opacity: 0; filter: blur(5px);}
+    to {top: 0px; opacity: 1; filter: blur(0px);}
   }
 
 

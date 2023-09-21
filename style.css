@@ -56,10 +56,11 @@ body {
 
 
 .home-page {
-  background: url("media/Oliver.JPG");
+  background: url("media/Oliver.JPG") no-repeat;
   background-size: cover;
-  background-position-y: 20%;
-  height: 100dvh;
+  background-position-y: 40%;
+  height: 150dvh;
+  background-color: darkslategrey;
 }
 .home {
   height: 100dvh;
@@ -75,7 +76,7 @@ body {
   animation-timing-function: ease-in-out;}
 
   @keyframes move {
-    from {top: 200px; opacity: 0; filter: blur(5px);}
+    from {top: 50px; opacity: 0; filter: blur(5px);}
     to {top: 0px; opacity: 1; filter: blur(0px);}
   }
 
@@ -87,7 +88,7 @@ body {
   margin-top: 100px;
   margin-left: -8%;
   border-radius: 20px;
-  padding: 5px;
+  padding: 7px;
   cursor: default;
 }
 
@@ -105,9 +106,10 @@ body {
 }
 
 .home-content p {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   margin-left: 7px;
+  font-family: 'Gruppo', sans-serif;
 }
 
 .bio {
